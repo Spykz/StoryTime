@@ -131,7 +131,7 @@ GameObject:
   - component: {fileID: 25620803}
   - component: {fileID: 25620802}
   m_Layer: 0
-  m_Name: Mansion
+  m_Name: Graveyard
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -175,7 +175,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: b59b8c93c692ed34880fc2b0d543cad6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: c1d3574afc072bf49be6fb393acff5cb, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1154,7 +1154,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c387d3e32404bcc91c60318d766bb1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  viewSize: 4.809292
+  viewSize: 5.0256696
   primaryAspectRatio: {x: 4, y: 3}
   secondaryAspectRatio: {x: 2, y: 1}
 --- !u!4 &769787205
@@ -1572,6 +1572,8 @@ GameObject:
   - component: {fileID: 1316462534}
   - component: {fileID: 1316462533}
   - component: {fileID: 1316462537}
+  - component: {fileID: 1316462538}
+  - component: {fileID: 1316462539}
   m_Layer: 0
   m_Name: Start
   m_TagString: Untagged
@@ -1619,6 +1621,7 @@ MonoBehaviour:
   eventHandler: {fileID: 1316462533}
   commandList:
   - {fileID: 1316462537}
+  - {fileID: 1316462538}
 --- !u!114 &1316462535
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1643,11 +1646,10 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks:
-  - {fileID: 1316462534}
-  selectedCommands:
-  - {fileID: 1316462537}
-  variables: []
+  selectedBlocks: []
+  selectedCommands: []
+  variables:
+  - {fileID: 1316462539}
   description: 
   stepPause: 0
   colorCommands: 1
@@ -1693,6 +1695,48 @@ MonoBehaviour:
   fadeColor: {r: 0, g: 0, b: 0, a: 1}
   fadeTexture: {fileID: 0}
   targetCamera: {fileID: 0}
+--- !u!114 &1316462538
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1316462532}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 2
+  indentLevel: 0
+  storyText: AHHHHHHHHHHHHHHHHHHH!
+  description: 
+  character: {fileID: 1921672369}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 0
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1316462539
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1316462532}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4580f28dd8581476b810b38eea2f1316, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scope: 0
+  key: Location
+  value: 
 --- !u!1 &1408116936
 GameObject:
   m_ObjectHideFlags: 0
