@@ -1639,7 +1639,7 @@ GameObject:
   - component: {fileID: 1316462547}
   - component: {fileID: 1316462546}
   - component: {fileID: 1316462550}
-  - component: {fileID: 1316462541}
+  - component: {fileID: 1316462549}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -1675,7 +1675,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 440.13635
+    x: 441.13635
     y: 234
     width: 120
     height: 40
@@ -1690,7 +1690,6 @@ MonoBehaviour:
   - {fileID: 1316462538}
   - {fileID: 1316462546}
   - {fileID: 1316462543}
-  - {fileID: 1316462541}
 --- !u!114 &1316462535
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1717,8 +1716,7 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 1316462534}
-  selectedCommands:
-  - {fileID: 1316462541}
+  selectedCommands: []
   variables:
   - {fileID: 1316462539}
   - {fileID: 1316462548}
@@ -1837,29 +1835,9 @@ MonoBehaviour:
   eventHandler: {fileID: 1316462544}
   commandList:
   - {fileID: 1316462542}
+  - {fileID: 1316462549}
   - {fileID: 1316462550}
   - {fileID: 1316462545}
---- !u!114 &1316462541
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1316462532}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 437f9a4e3dbc647f9bdce95308418bff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 14
-  indentLevel: 0
-  duration: 1
-  fadeOut: 1
-  targetView: {fileID: 1698028110}
-  waitUntilFinished: 1
-  fadeColor: {r: 0, g: 0, b: 0, a: 1}
-  fadeTexture: {fileID: 0}
-  targetCamera: {fileID: 519420031}
 --- !u!114 &1316462542
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1898,7 +1876,7 @@ MonoBehaviour:
   storyText: AHHHHHHHHHHHHHHHHHHH!
   description: 
   character: {fileID: 1172633184}
-  portrait: {fileID: 21300000, guid: 9bfe945a703931d489f7d83667d9c17d, type: 3}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -2011,6 +1989,33 @@ MonoBehaviour:
   scope: 0
   key: ContinueButton
   value: {fileID: 1172621631}
+--- !u!114 &1316462549
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1316462532}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 15
+  indentLevel: 0
+  storyText: '{b}Present day{/b}'
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!114 &1316462550
 MonoBehaviour:
   m_ObjectHideFlags: 2
