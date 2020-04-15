@@ -230,7 +230,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nameText: Connor
-  nameColor: {r: 1, g: 1, b: 1, a: 1}
+  nameColor: {r: 0.2509804, g: 0.2509804, b: 0.2509804, a: 1}
   soundEffect: {fileID: 0}
   portraits:
   - {fileID: 21300000, guid: 2af33b612ea0b1544809d7d44d0ea8cb, type: 3}
@@ -249,7 +249,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &190928341
 GameObject:
@@ -658,7 +658,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &580663664
 GameObject:
@@ -1148,7 +1148,7 @@ Transform:
   m_Children:
   - {fileID: 25620803}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &786534916
 GameObject:
@@ -1180,7 +1180,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nameText: Player
-  nameColor: {r: 1, g: 1, b: 1, a: 1}
+  nameColor: {r: 0.2509804, g: 0.2509804, b: 0.2509804, a: 1}
   soundEffect: {fileID: 0}
   portraits:
   - {fileID: 21300000, guid: b227622ec64afb145b7cc2f8d30d1e49, type: 3}
@@ -1199,7 +1199,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &999729315
 GameObject:
@@ -1297,6 +1297,57 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 999729315}
   m_CullTransparentMesh: 0
+--- !u!1 &1034351336
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1034351338}
+  - component: {fileID: 1034351337}
+  m_Layer: 0
+  m_Name: Theatre Kid
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1034351337
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1034351336}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameText: Steven
+  nameColor: {r: 1, g: 1, b: 1, a: 1}
+  soundEffect: {fileID: 0}
+  portraits:
+  - {fileID: 21300000, guid: 4ae9c1819e8eea945938ded428cdad5b, type: 3}
+  portraitsFace: 0
+  setSayDialog: {fileID: 0}
+  description: 
+--- !u!4 &1034351338
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1034351336}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 15
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1172621631
 GameObject:
   m_ObjectHideFlags: 0
@@ -1460,7 +1511,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nameText: Dr. McGregor
-  nameColor: {r: 1, g: 1, b: 1, a: 1}
+  nameColor: {r: 0.2509804, g: 0.2509804, b: 0.2509804, a: 1}
   soundEffect: {fileID: 0}
   portraits:
   - {fileID: 21300000, guid: 9bfe945a703931d489f7d83667d9c17d, type: 3}
@@ -1479,7 +1530,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1184248249
 GameObject:
@@ -1537,7 +1588,7 @@ Transform:
   m_Children:
   - {fileID: 2123591706}
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1223238736
 GameObject:
@@ -1867,8 +1918,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 439.13635
-    y: 235
+    x: 434.13013
+    y: 233.18182
     width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -1910,20 +1961,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 344.11404, y: 216.89503}
+  scrollPos: {x: 545.15204, y: 362.46497}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.7299998
+  zoom: 0.54999995
   scrollViewRect:
     serializedVersion: 2
     x: -343
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
+  selectedBlocks:
+  - {fileID: 1316462534}
   selectedCommands:
-  - {fileID: 1316462558}
+  - {fileID: 1316462544}
   variables:
   - {fileID: 1316462539}
   - {fileID: 1316462548}
@@ -2034,7 +2086,7 @@ MonoBehaviour:
     I were going to have a party after school and were wondering if you wanted to
     join us?"
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1841593748}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -2061,7 +2113,7 @@ MonoBehaviour:
   indentLevel: 0
   display: 1
   stage: {fileID: 0}
-  character: {fileID: 0}
+  character: {fileID: 1605112367}
   replacedCharacter: {fileID: 0}
   portrait: {fileID: 21300000, guid: 0b96d3ca5ef9c4941a81fa714c4ef11b, type: 3}
   offset: 0
@@ -2118,7 +2170,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: AHHHHHHHHHHHHHHHHHHH!
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1172633184}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -2166,7 +2218,7 @@ MonoBehaviour:
   indentLevel: 0
   display: 1
   stage: {fileID: 0}
-  character: {fileID: 0}
+  character: {fileID: 1976716760}
   replacedCharacter: {fileID: 0}
   portrait: {fileID: 21300000, guid: 2bbc32710565cb4499cb069ec86efb4a, type: 3}
   offset: 0
@@ -2179,7 +2231,7 @@ MonoBehaviour:
   shiftOffset: {x: 0, y: 0}
   move: 0
   shiftIntoPlace: 0
-  waitUntilFinished: 0
+  waitUntilFinished: 1
 --- !u!114 &1316462546
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2196,7 +2248,7 @@ MonoBehaviour:
   indentLevel: 0
   display: 1
   stage: {fileID: 0}
-  character: {fileID: 0}
+  character: {fileID: 1172633184}
   replacedCharacter: {fileID: 0}
   portrait: {fileID: 21300000, guid: 9bfe945a703931d489f7d83667d9c17d, type: 3}
   offset: 0
@@ -2209,7 +2261,7 @@ MonoBehaviour:
   shiftOffset: {x: 0, y: 0}
   move: 0
   shiftIntoPlace: 0
-  waitUntilFinished: 0
+  waitUntilFinished: 1
 --- !u!114 &1316462547
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2283,7 +2335,7 @@ MonoBehaviour:
   indentLevel: 0
   display: 1
   stage: {fileID: 0}
-  character: {fileID: 0}
+  character: {fileID: 1841593748}
   replacedCharacter: {fileID: 0}
   portrait: {fileID: 21300000, guid: d4f8edfe670d3ef4991d88d67cb5871c, type: 3}
   offset: 0
@@ -2313,7 +2365,7 @@ MonoBehaviour:
   indentLevel: 0
   display: 1
   stage: {fileID: 0}
-  character: {fileID: 0}
+  character: {fileID: 155068215}
   replacedCharacter: {fileID: 0}
   portrait: {fileID: 21300000, guid: 2af33b612ea0b1544809d7d44d0ea8cb, type: 3}
   offset: 0
@@ -2373,7 +2425,7 @@ MonoBehaviour:
   indentLevel: 0
   display: 1
   stage: {fileID: 0}
-  character: {fileID: 0}
+  character: {fileID: 1605112367}
   replacedCharacter: {fileID: 0}
   portrait: {fileID: 21300000, guid: 0b96d3ca5ef9c4941a81fa714c4ef11b, type: 3}
   offset: 0
@@ -2389,7 +2441,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &1316462554
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2401,10 +2453,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 26
   indentLevel: 0
-  storyText: "Ugh, I can\u2019t believe you would even invite that loser. He\u2019s
+  storyText: "Ugh, I can\u2019t believe you would even invite that loser. He\u2019s,
     like, so gross."
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1605112367}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -2417,7 +2469,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1316462555
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2431,7 +2483,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: Alright, see you after school!
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1841593748}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -2444,7 +2496,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1316462556
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2458,7 +2510,7 @@ MonoBehaviour:
   indentLevel: 0
   display: 1
   stage: {fileID: 0}
-  character: {fileID: 0}
+  character: {fileID: 1841593748}
   replacedCharacter: {fileID: 0}
   portrait: {fileID: 21300000, guid: d4f8edfe670d3ef4991d88d67cb5871c, type: 3}
   offset: 0
@@ -2474,7 +2526,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &1316462557
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2495,7 +2547,7 @@ MonoBehaviour:
   targetCamera: {fileID: 0}
 --- !u!114 &1316462558
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2598,6 +2650,57 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1340701644}
   m_CullTransparentMesh: 0
+--- !u!1 &1489860506
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1489860508}
+  - component: {fileID: 1489860507}
+  m_Layer: 0
+  m_Name: Nerd
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1489860507
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1489860506}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameText: Ned
+  nameColor: {r: 1, g: 1, b: 1, a: 1}
+  soundEffect: {fileID: 0}
+  portraits:
+  - {fileID: 21300000, guid: 1576fba67e3ce4b479b4befa3061b70a, type: 3}
+  portraitsFace: 0
+  setSayDialog: {fileID: 0}
+  description: 
+--- !u!4 &1489860508
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1489860506}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 14
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1577995121
 GameObject:
   m_ObjectHideFlags: 0
@@ -2643,7 +2746,7 @@ Transform:
   m_Children:
   - {fileID: 485089179}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1605112366
 GameObject:
@@ -2675,7 +2778,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nameText: Jessica
-  nameColor: {r: 1, g: 1, b: 1, a: 1}
+  nameColor: {r: 0.2509804, g: 0.2509804, b: 0.2509804, a: 1}
   soundEffect: {fileID: 0}
   portraits:
   - {fileID: 21300000, guid: 0b96d3ca5ef9c4941a81fa714c4ef11b, type: 3}
@@ -2694,7 +2797,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1698028109
 GameObject:
@@ -2741,7 +2844,7 @@ Transform:
   m_Children:
   - {fileID: 303154061}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1796827401
 GameObject:
@@ -2848,7 +2951,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nameText: Pete
-  nameColor: {r: 1, g: 1, b: 1, a: 1}
+  nameColor: {r: 0.2509804, g: 0.2509804, b: 0.2509804, a: 1}
   soundEffect: {fileID: 0}
   portraits:
   - {fileID: 21300000, guid: d4f8edfe670d3ef4991d88d67cb5871c, type: 3}
@@ -2867,7 +2970,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1976716759
 GameObject:
@@ -2899,7 +3002,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nameText: Mysterious Shadow
-  nameColor: {r: 1, g: 1, b: 1, a: 1}
+  nameColor: {r: 0.2509804, g: 0.2509804, b: 0.2509804, a: 1}
   soundEffect: {fileID: 0}
   portraits:
   - {fileID: 21300000, guid: 2bbc32710565cb4499cb069ec86efb4a, type: 3}
@@ -2918,7 +3021,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2074263562
 GameObject:
