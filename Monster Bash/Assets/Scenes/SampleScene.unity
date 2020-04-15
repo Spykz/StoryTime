@@ -2181,7 +2181,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 433.13013
+    x: 431.13013
     y: 235.18182
     width: 120
     height: 40
@@ -2245,9 +2245,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1316462564}
+  - {fileID: 1316462534}
   selectedCommands:
-  - {fileID: 1316462591}
+  - {fileID: 1316462565}
   variables:
   - {fileID: 1316462539}
   - {fileID: 1316462548}
@@ -3039,7 +3039,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 38
   indentLevel: 0
-  text: "I think I\u2019ll go to town to pick up the supplies."
+  text: "I\u2019d love to come with you!"
   description: 
   targetBlock: {fileID: 1316462564}
   hideIfVisited: 0
