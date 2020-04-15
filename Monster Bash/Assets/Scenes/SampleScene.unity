@@ -1245,7 +1245,7 @@ GameObject:
   - component: {fileID: 769787205}
   - component: {fileID: 769787204}
   m_Layer: 0
-  m_Name: View
+  m_Name: Graveyard
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -1343,7 +1343,7 @@ GameObject:
   - component: {fileID: 950733625}
   - component: {fileID: 950733624}
   m_Layer: 0
-  m_Name: View 5
+  m_Name: Mansion
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -2144,6 +2144,8 @@ GameObject:
   - component: {fileID: 1316462587}
   - component: {fileID: 1316462586}
   - component: {fileID: 1316462585}
+  - component: {fileID: 1316462592}
+  - component: {fileID: 1316462591}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -2245,7 +2247,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 1316462564}
   selectedCommands:
-  - {fileID: 1316462588}
+  - {fileID: 1316462591}
   variables:
   - {fileID: 1316462539}
   - {fileID: 1316462548}
@@ -2989,7 +2991,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &1316462564
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -3021,9 +3023,11 @@ MonoBehaviour:
   - {fileID: 1316462590}
   - {fileID: 1316462589}
   - {fileID: 1316462574}
+  - {fileID: 1316462592}
+  - {fileID: 1316462591}
 --- !u!114 &1316462565
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -3110,7 +3114,7 @@ MonoBehaviour:
     booleanVal: 0
 --- !u!114 &1316462568
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -3140,7 +3144,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &1316462569
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -3170,7 +3174,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &1316462570
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -3200,7 +3204,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &1316462571
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -3230,7 +3234,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &1316462572
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -3260,7 +3264,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &1316462573
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -3290,7 +3294,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &1316462574
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -3317,7 +3321,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1316462575
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -3345,7 +3349,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1316462576
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -3357,7 +3361,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 54
   indentLevel: 0
-  storyText: "Hey, I don\u2019t think we should be doing this guys, I think this is
+  storyText: "Hey, I don\u2019t think we should be doing this guys. I think this is
     stealing."
   description: 
   character: {fileID: 1489860507}
@@ -3373,7 +3377,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1316462577
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -3386,7 +3390,7 @@ MonoBehaviour:
   itemId: 53
   indentLevel: 0
   storyText: "Oh wow, I\u2019m surprised the town is abandoned. Whatever, more goodies
-    for us."
+    for us!"
   description: 
   character: {fileID: 1034351337}
   portrait: {fileID: 0}
@@ -3401,7 +3405,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1316462578
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -3431,7 +3435,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &1316462579
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -3461,7 +3465,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &1316462580
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -3491,7 +3495,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &1316462581
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -3504,7 +3508,7 @@ MonoBehaviour:
   itemId: 49
   indentLevel: 0
   storyText: '{b}Player picks up Detos and Prongles chips as well as batteries and
-    flashlights{/b}'
+    flashlights.{/b}'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -3519,7 +3523,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1316462582
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -3540,7 +3544,7 @@ MonoBehaviour:
   targetCamera: {fileID: 0}
 --- !u!114 &1316462583
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -3567,7 +3571,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1316462584
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -3594,7 +3598,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1316462585
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -3621,7 +3625,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1316462586
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -3651,7 +3655,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &1316462587
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -3681,7 +3685,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &1316462588
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -3702,7 +3706,7 @@ MonoBehaviour:
   targetCamera: {fileID: 0}
 --- !u!114 &1316462589
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -3732,7 +3736,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &1316462590
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -3760,6 +3764,61 @@ MonoBehaviour:
   move: 1
   shiftIntoPlace: 0
   waitUntilFinished: 0
+--- !u!114 &1316462591
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1316462532}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 64
+  indentLevel: 0
+  storyText: '{b}The generator and party get set up in an hour and we see nerd and
+    theatre kid join the party.{/b}'
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1316462592
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1316462532}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 63
+  indentLevel: 0
+  storyText: "She\u2019s right guys. Let's set up the generator and party!"
+  description: 
+  character: {fileID: 1841593748}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!1 &1340701644
 GameObject:
   m_ObjectHideFlags: 0
@@ -3897,7 +3956,7 @@ GameObject:
   - component: {fileID: 1577995123}
   - component: {fileID: 1577995122}
   m_Layer: 0
-  m_Name: View 3
+  m_Name: Black Screen
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -4046,7 +4105,7 @@ GameObject:
   - component: {fileID: 1698028111}
   - component: {fileID: 1698028110}
   m_Layer: 0
-  m_Name: View 2
+  m_Name: White Screen
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -4173,7 +4232,7 @@ GameObject:
   - component: {fileID: 1731972322}
   - component: {fileID: 1731972321}
   m_Layer: 0
-  m_Name: View 4
+  m_Name: General Store
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
